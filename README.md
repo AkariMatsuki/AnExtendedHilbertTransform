@@ -17,8 +17,8 @@ To reconstruct the phase via the conventional/extended HT method,
 python3 main.py "[file name]" tau
 ```
 
-* file name: name of the file of the observed signal.
-* tau: time step size.
+* file name: Name of the file(.txt) of the observed signal.
+* tau: Sampling interval of the observed signal (float).
 
 For example, 
 ```
