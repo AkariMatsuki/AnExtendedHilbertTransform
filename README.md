@@ -12,7 +12,7 @@ Phase reconstruction from oscillatory data via an extended Hilbert transform met
 See [Demo_An_Extended_Hilbert_Transform.ipynb](https://github.com/treepineakari1104/AnExtendedHilbertTransform/blob/main/Demo_An_Extended_Hilbert_Transform.ipynb)
 
 ## Usage
-To reconstruct the phase via the conventional/extended HT method,
+Reconstruct the phase via the conventional and the extended HT method by
 ```
 python3 main.py "[file name]" tau
 ```
