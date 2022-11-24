@@ -4,14 +4,11 @@ import process_observed_data as proc
 import importlib
 importlib.reload(proc)
 
-###### Quasi-periodic modulation
 def u_QuasiPeriodic(tspan, omega, b):
     N = len(tspan)
     u = b*( np.sin(np.sqrt(2)*omega*tspan) + np.cos(np.sqrt(3)*omega*tspan)).reshape(1, N)
     return u
-###################################
 
-####### Ornstein-Uhlenbeck type modulation
 def G_whitenoise(x,t, sigma):
     num_node = len(x)
     return np.diag(np.ones(num_node)* sigma)
