@@ -1,5 +1,8 @@
 # AnExtendedHilbertTransform
-Phase reconstruction from oscillatory data via an extended Hilbert transform method.
+Phase reconstruction from oscillatory data via an extended Hilbert transform (HT) method ([Matsuki, Kori and Kobayashi, Sci. Rep., 2023](https://www.nature.com/articles/s41598-023-30405-5)).  
+
+Compared to the conventional HT method, the extended HT method can reconstruct phase more accurately from a sinusoidal signal $x(t) = A_L \cos (\hat{\omega} t + u(t))$, where $A_L$ is a slow amplitude and $u(t)$ is a small phase-modulation.
+
 
 ## Requirement
 * Python 3
@@ -30,4 +33,4 @@ Two files will be generated:
 
 ## Author
 Akari Matsuki
-mail to : treepineakari[at]g.ecc.u-tokyo.ac.jp
+mail to : akarimatsuki114[at]gmail.com
