@@ -5,11 +5,11 @@ Compared to the conventional HT method, the extended HT method can reconstruct p
 
 
 ## Requirement
-* Python 3
-* NumPy
-* SciPy
-* Matplotlib
-* sdeint
+* Python==3.8.8
+* NumPy==1.20.1
+* SciPy==1.6.2
+* Matplotlib==3.3.4
+* sdeint==0.2.2
 
 ## Demo
 See [Demo_An_Extended_Hilbert_Transform.ipynb](https://github.com/treepineakari1104/AnExtendedHilbertTransform/blob/main/Demo_An_Extended_Hilbert_Transform.ipynb)
